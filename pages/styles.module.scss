@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.soon {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+
+  @media (max-width: 500px) {
+    width: 300px;
+  }
+}
+
+.Field {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
